@@ -11,5 +11,6 @@
         List<OrderLine> line = new List<OrderLine>();
         public Invoice InvoiceInvoice { get; set; }
         List<Employee> employee = new List<Employee>();
+        public Employee Manager { get; set; }
     }
 }

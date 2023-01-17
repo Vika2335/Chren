@@ -13,8 +13,8 @@
         public Invoice InvoiceInvoice { get; set; }
         public Warehouse WarehouseWarehouse { get; set;}
         public Order OrderOrder { get; set; }
-        public string ResponsiblePerson { get; set; }
-        public string Manager { get; set; }
-        public string Storekeeper { get; set; }
+        List<Invoice> responsiblePerson = new List<Invoice>();
+        List<Order> manager = new List<Order>();
+        List<Warehouse> storekeeper = new List<Warehouse>();
     }
 }

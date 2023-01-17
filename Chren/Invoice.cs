@@ -13,5 +13,6 @@
         List<EntryInTheInvoice> entry = new List<EntryInTheInvoice>();
         List<Order> order = new List<Order>();
         List<Employee> employee = new List<Employee>();
+        public Employee ResponsiblePerson { get; set; }
     }
 }

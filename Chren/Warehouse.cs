@@ -6,5 +6,6 @@
         public string Address { get; set; }
         List<TheProductIsInStock> theProductIsInStocks= new List<TheProductIsInStock>();
         List<Employee> employee = new List<Employee>();
+        public Employee Storekeeper { get; set; }
     }
 }
