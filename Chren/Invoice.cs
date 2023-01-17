@@ -11,5 +11,7 @@
         public string Note { get; set; }
         public string RecipientFullName { get; set; }
         List<EntryInTheInvoice> entry = new List<EntryInTheInvoice>();
+        List<Order> order = new List<Order>();
+        List<Employee> employee = new List<Employee>();
     }
 }

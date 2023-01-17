@@ -6,5 +6,6 @@
         public double Weight { get; set; }
         public double Price { get; set; }
         public double Sum { get; set; }
+        public Product ProductProduct { get; set; } 
     }
 }

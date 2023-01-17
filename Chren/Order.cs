@@ -9,5 +9,7 @@
         public double Price { get; set; }
         public static void Cancel() { }
         List<OrderLine> line = new List<OrderLine>();
+        public Invoice InvoiceInvoice { get; set; }
+        List<Employee> employee = new List<Employee>();
     }
 }

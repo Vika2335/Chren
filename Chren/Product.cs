@@ -8,5 +8,8 @@
         public string Description { get; set; }
         public double Price { get; set; }
         public double Weight { get; set; }
+        List<EntryInTheInvoice> entry = new List<EntryInTheInvoice>();
+        List<OrderLine> line = new List<OrderLine>();
+        List<TheProductIsInStock> theProductIsInStocks = new List<TheProductIsInStock>();
     }
 }
